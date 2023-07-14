@@ -108,7 +108,7 @@ app.listen(port, () => {
  
 🆘<font color="#fc1c50">Danger </font>🆘
 
-<font color="#fc1c50"> ===================================================================================== </font>
+<font color="#fc1c50"> =========================================================================== </font>
 
 - _Tấn công <font color="#fc1c50">Man-in-the-Middle</font> là một phương pháp tấn công mà kẻ tấn công can thiệp vào giao tiếp giữa hai bên mà không được phép, và giữ vai trò trung gian giữa hai bên đó. Khi hai bên trao đổi thông tin qua mạng, kẻ tấn công này chèn mình vào quá trình truyền thông để lấy cắp, thay đổi hoặc đánh cắp thông tin quan trọng._
 
@@ -120,7 +120,7 @@ app.listen(port, () => {
 
 - _Tuy nhiên, kẻ tấn công <font color="#fc1c50">Man-in-the-Middle</font> có thể tinh vi và khó phát hiện, do đó việc duy trì an toàn và cảnh giác là rất quan trọng trong việc truyền thông và giao tiếp qua mạng._
 
-<font color="#fc1c50"> ===================================================================================== </font>
+<font color="#fc1c50"> =========================================================================== </font>
 
 <br>
 
