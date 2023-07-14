@@ -106,7 +106,7 @@ app.listen(port, () => {
 
 <br>
  
-🆘<font color="#fc1c50">Danger </font>🆘
+🆘🆘🆘<font color="#fc1c50">Danger </font>🆘🆘🆘
 
 <font color="#fc1c50"> =========================================================================== </font>
 
@@ -132,9 +132,9 @@ app.listen(port, () => {
 
 <br>
 
-⚠️<font color="#fca61c">Attention</font>⚠️
+⚠️⚠️⚠️<font color="#fca61c">Attention</font>⚠️⚠️⚠️
 
-<font color="#fca61c"> =========================================================== </font>
+<font color="#fca61c"> =========================================================================== </font>
 
 - _`Cookie` được ghi và đọc theo `domain`._
 
@@ -144,29 +144,29 @@ app.listen(port, () => {
 
   - _Nhưng nếu bạn truy cập vào https://google.com thì google sẽ không đọc được `cookie` bên https://duthanhduoc.com, vì trình duyệt không gửi lên._
 
-<font color="#fca61c"> =========================================================== </font>
+<font color="#fca61c"> =========================================================================== </font>
 
 <br>
 
-🆘<font color="#fc1c50">Danger</font>🆘
+🆘🆘🆘<font color="#fc1c50">Danger</font>🆘🆘🆘
 
-<font color="#fc1c50"> =========================================================== </font>
+<font color="#fc1c50"> =========================================================================== </font>
 
 - _Nếu bạn đang ở trang https://google.com và gửi `request` đến https://duthanhduoc.com thì trình duyệt sẽ tự động gửi `cookie` của https://duthanhduoc.com lên `server` của https://duthanhduoc.com, đây là một lỗ hổng để hacker <font color="fc1c50">tấn công CSRF</font>. Để tìm hiểu thêm về kỹ thuật tấn công và cách khắc phục thì các bạn đọc thêm ở những phần dưới nhé._
 
-<font color="#fc1c50"> =========================================================== </font>
+<font color="#fc1c50"> =========================================================================== </font>
 
 <br>
 
-🆗<font color="#1caafc">Special</font>🆗
+🆗🆗🆗<font color="#1caafc">Special</font>🆗🆗🆗
 
-<font color="#1caafc"> =========================================================== </font>
+<font color="#1caafc"> =========================================================================== </font>
 
 - _Một website có thể lưu nhiều `cookie` khác nhau, ví dụ profile, cart, history, .._
 
 - _Bộ nhớ của `cookie` có giới hạn, nên bạn không nên lưu quá nhiều thông tin vào `cookie`. Thường thì một website chỉ nên lưu tối đa `50 cookie` và tổng cộng kích thước của các `cookie` trên website đó không nên vượt quá `4KB`._
 
-<font color="#1caafc"> =========================================================== </font>
+<font color="#1caafc"> =========================================================================== </font>
 
 <br>
 
@@ -204,15 +204,15 @@ app.listen(port, () => {
 
 <br>
 
-⚠️<font color="#fca61c">Attention</font>⚠️
+⚠️⚠️⚠️<font color="#fca61c">Attention</font>⚠️⚠️⚠️
 
-<font color="#fca61c"> =========================================================== </font>
+<font color="#fca61c"> =========================================================================== </font>
 
 - _Lưu ý là nếu `cookie` được set `HttpOnly` thì bạn không thể đọc được `cookie` bằng Javascript đâu nhé._
 
 - _Lưu ý là `cookie` lưu ở trang nào thì trình duyệt sẽ gửi `cookie` trang đó lên `server` nha. Nếu `cookie` của https://facebook.com thì không có chuyện bạn vào https://duthanhduoc.com và mình đọc được `cookie` facebook của bạn đâu._
 
-<font color="#fca61c"> =========================================================== </font>
+<font color="#fca61c"> =========================================================================== </font>
 
 <br>
 
@@ -534,9 +534,9 @@ app.listen(port, () => {
 
 <br>
 
-⚠️<font color="#fca61c">Attention</font>⚠️
+⚠️⚠️⚠️<font color="#fca61c">Attention</font>⚠️⚠️⚠️
 
-<font color="#fca61c"> =========================================================== </font>
+<font color="#fca61c"> =========================================================================== </font>
 
 - _Quy tắc quyết định 2 site có phải là same không nó phức tạp hơn bạn nghĩ._
 
@@ -550,13 +550,13 @@ app.listen(port, () => {
   - _https://web.dev/samesite-cookies-explained/_
   - _https://jub0bs.com/posts/2021-01-29-great-samesite-confusion/_
 
-<font color="#fca61c"> =========================================================== </font>
+<font color="#fca61c"> =========================================================================== </font>
 
 <br>
 
-🆗<font color="#1caafc">Special</font>🆗
+🆗🆗🆗<font color="#1caafc">Special</font>🆗🆗🆗
 
-<font color="#1caafc"> =========================================================== </font>
+<font color="#1caafc"> =========================================================================== </font>
 
 - `Single Page Application` có bị <font color="#fc1c50">tấn công Cross-Site Request Forgery (CSRF)</font> không ?
 
@@ -582,13 +582,13 @@ app.listen(port, () => {
 
   - Còn nếu bạn set `SameSite=none` (khi đó phải thêm `secure=true` nữa browsers nó mới chập nhận cái `samesite none` này) thì khỏi nói luôn, hacker có thể thay đổi data của bạn nếu bạn truy cập trang web của hacker.
 
-<font color="#1caafc"> =========================================================== </font>
+<font color="#1caafc"> =========================================================================== </font>
 
 <br>
 
 🥑 **<font color="#15cf24">Tóm Tắt</font>**
 
-<font color="#15cf24"> =========================================================== </font>
+<font color="#15cf24"> =========================================================================== </font>
 
 - _Nếu bạn không dùng `cookie` thì không cần quan tâm, vì <font color="#15cf24">\_no cookie no CSRF_</font>\_
 
@@ -602,7 +602,7 @@ app.listen(port, () => {
 
 - _Cá nhân mình nghĩ không cần phải dùng thêm `CSRF token` nữa, vì nó chỉ làm cho cơ chế xác thực của bạn phức tạp hơn thôi. Như trên là đủ rồi._
 
-<font color="#15cf24"> =========================================================== </font>
+<font color="#15cf24"> =========================================================================== </font>
 
 <br>
 
@@ -734,15 +734,15 @@ app.listen(3000, () => {
 
 <br>
 
-🆗<font color="#1caafc">Special</font>🆗
+🆗🆗🆗<font color="#1caafc">Special</font>🆗🆗🆗
 
-<font color="#1caafc"> =========================================================== </font>
+<font color="#1caafc"> =========================================================================== </font>
 
 - _<font color="#15cf24">Scale ngang</font> là chúng ta mở rộng quy mô hệ thống bằng cách thêm các `server` mới vào hệ thống, thay vì nâng cấp `server` hiện tại lên một cấu hình cao hơn._
 
 - _<font color="#15cf24">Scale dọc</font> là chúng ta mở rộng quy mô hệ thống bằng cách nâng cấp `server` hiện tại lên một cấu hình cao hơn._
 
-<font color="#1caafc"> =========================================================== </font>
+<font color="#1caafc"> =========================================================================== </font>
 
 <br>
 
@@ -754,15 +754,15 @@ app.listen(3000, () => {
 
 <br>
 
-⚠️<font color="#fca61c">Attention</font>⚠️
+⚠️⚠️⚠️<font color="#fca61c">Attention</font>⚠️⚠️⚠️
 
-<font color="#fca61c"> =========================================================== </font>
+<font color="#fca61c"> =========================================================================== </font>
 
 - _Ở đây có một lưu ý là: Tất cả các `JWT` đều là `token`, nhưng không phải tất cả các `token` đều là `JWT`._
 
 - _Bởi vì kích thước tương đối nhỏ, `JWT` có thể được gửi qua `URL`, qua tham số `POST`, hoặc bên trong `HTTP Header` mà không ảnh hưởng nhiều đến tốc độ `request`._
 
-<font color="#fca61c"> =========================================================== </font>
+<font color="#fca61c"> =========================================================================== </font>
 
 <br>
 
@@ -812,9 +812,9 @@ app.listen(3000, () => {
 
 <br>
 
-⚠️<font color="#fca61c">Attention</font>⚠️
+⚠️⚠️⚠️<font color="#fca61c">Attention</font>⚠️⚠️⚠️
 
-<font color="#fca61c"> =========================================================== </font>
+<font color="#fca61c"> =========================================================================== </font>
 
 - _Tất cả mọi người đều biết được thông tin `Header` và `Payload` của cái `JWT`_
 
@@ -824,7 +824,7 @@ app.listen(3000, () => {
 
 - _Mặc định thì `JWT` dùng thuật toán `HMACSHA256` nên chúng ta yên tâm rằng `JWT` có độ an toàn cực cao và rất khó bị làm giả._
 
-<font color="#fca61c"> =========================================================== </font>
+<font color="#fca61c"> =========================================================================== </font>
 
 <br>
 
@@ -832,9 +832,9 @@ app.listen(3000, () => {
 
 <br>
 
-🆗<font color="#1caafc">Special</font>🆗
+🆗🆗🆗<font color="#1caafc">Special</font>🆗🆗🆗
 
-<font color="#1caafc"> =========================================================== </font>
+<font color="#1caafc"> =========================================================================== </font>
 
 - _Phương pháp dùng `token` để xác thực như thế này người ta gọi là `Token Based Authentication`_
 
@@ -846,7 +846,7 @@ app.listen(3000, () => {
 
 - _Tiết kiệm biết bao nhiêu là bộ nhớ cho `server`, mà còn nhanh nữa chứ (vì bỏ qua bước kiểm tra trong cơ sở dữ liệu, cái bước `verify` `jwt` thì nó nhanh lắm)_
 
-<font color="#1caafc"> =========================================================== </font>
+<font color="#1caafc"> =========================================================================== </font>
 
 <br>
 
@@ -984,9 +984,9 @@ app.listen(3000, () => {
 
 <br>
 
-🆘<font color="#fc1c50">Danger</font>🆘
+🆘🆘🆘<font color="#fc1c50">Danger</font>🆘🆘🆘
 
-<font color="#fc1c50"> =========================================================== </font>
+<font color="#fc1c50"> =========================================================================== </font>
 
 _<font color="#fc1c50">Vấn đề của Access Token</font>_
 
@@ -1004,7 +1004,7 @@ _<font color="#fc1c50">Vấn đề của Access Token</font>_
 
 - Lúc này người ta mới nghĩ ra ra một cách để giảm thiểu những vấn đề trên, đó là sử dụng thêm `Refresh Token`.
 
-<font color="#fc1c50"> =========================================================== </font>
+<font color="#fc1c50"> =========================================================================== </font>
 
 <br>
 
@@ -1046,9 +1046,9 @@ _<font color="#fc1c50">Vấn đề của Access Token</font>_
 
 <br>
 
-🆘<font color="#fc1c50">Danger</font>🆘
+🆘🆘🆘<font color="#fc1c50">Danger</font>🆘🆘🆘
 
-<font color="#fc1c50"> =========================================================== </font>
+<font color="#fc1c50"> =========================================================================== </font>
 
 <font color="#fc1c50">_Vấn đề bất cập giữa lý thuyết và thực tế_</font>
 
@@ -1064,13 +1064,13 @@ _<font color="#fc1c50">Vấn đề của Access Token</font>_
 
 - Chúng ta cũng có thể cải thiện thêm bằng cách cho thời gian hết hạn `access token` ngắn lại và dùng `websocket` để thông báo cho `client` logout ngay lập tức.
 
-<font color="#fc1c50"> =========================================================== </font>
+<font color="#fc1c50"> =========================================================================== </font>
 
 <br>
 
-🆗<font color="#1caafc">Special</font>🆗
+🆗🆗🆗<font color="#1caafc">Special</font>🆗🆗🆗
 
-<font color="#1caafc"> =========================================================== </font>
+<font color="#1caafc"> =========================================================================== </font>
 
 - <font color="#1caafc">_Tại sao lại tạo một refresh token mới khi chúng ta thực hiện refresh token?_</font>
 
@@ -1144,4 +1144,4 @@ _<font color="#fc1c50">Vấn đề của Access Token</font>_
 
   - Về cái này mình sẽ có một bài viết riêng luôn, vẫn trong series này nhé.
 
-<font color="#1caafc"> =========================================================== </font>
+<font color="#1caafc"> =========================================================================== </font>
