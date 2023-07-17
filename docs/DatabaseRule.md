@@ -50,7 +50,7 @@
 
   - Cung cấp hiệu suất tốt khi `query`
 
-  - Yêu cầu phần cứng hợp lý
+  - Yêu cầu phần cứng hợp lý (RAM, CPU, Disk)
 
 <font color="#1caafc"> =========================================================================== </font>
 
